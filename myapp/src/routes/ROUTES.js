@@ -36,11 +36,11 @@ export const ROUTES = [
         element:<AdminRoot/>,
         children:[
             {
-                path: '/admin',
+                path: '',
                 element: <EmployeesAdmin/>
             },
             {
-                path: 'add-employees',
+                path: '/admin/add-employees',
                 element: <AddEmployee/>
             },
             {

@@ -21,8 +21,8 @@ export const getEmployeesByID = async (id) => {
   return globalData;
 };
 
-export const postEmployees = (payload) => {
-  return axios.post(`${BASE_URL}/employees`, payload);
+export const postEmployee = (payload) => {
+   axios.post(`${BASE_URL}/employees`, payload);
 };
 
 export const putEmployees = (id, updatedProduct) => {

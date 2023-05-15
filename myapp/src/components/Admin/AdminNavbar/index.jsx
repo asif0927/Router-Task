@@ -9,10 +9,10 @@ const AdminNavbar = () => {
       <p className={style.paragraph}>React-App | routing |Admin</p>
     <ul className={style.ahd}>
         <li>
-          <Link to='/'>EmployeesAdmin</Link>
+          <Link to='/admin'>EmployeesAdmin</Link>
         </li>
         <li>
-          <Link to='/add-employees'>EmployeesAdd</Link>
+          <Link to='/admin/add-employees'>EmployeesAdd</Link>
         </li>
         <li>
         <Link to='employees/edit/:id'>EmployeesEdit</Link>
